@@ -2,23 +2,37 @@
  {
   "slug": "ad1-man42",
   "file": "lla-julie-ugc-01-man42.mp4",
-  "title": "Ad 1 \u00b7 Man, 42",
-  "desc": "Kitchen selfie take. 33-years-apart hook \u2192 Longevity Masterclass of the Year \u2192 who Julie is \u2192 live on Zoom \u2192 $49. Bold word-timed captions, PR pop-up, Zoom power shot, offer closer.",
+  "title": "Ad 1 · Man, 42",
+  "desc": "Kitchen selfie take. 33-years-apart hook → Longevity Masterclass of the Year → who Julie is → live on Zoom → $49. Bold word-timed captions, PR pop-up, Zoom power shot, offer closer.",
   "duration": "60.2",
-  "source": "Seedance 2.5 \u00b7 1080p",
+  "source": "Seedance 2.5 · 1080p",
   "size": "34.5 MB",
-  "qc": "Transcript verified word-for-word against the script; one mispronounced word (\u201cfaculty\u201d) removed with a jump-cut + punch-in, sentence stays grammatical (\u201cShe's at Longevity Life Academy\u201d). Loudness \u221214 LUFS / peak \u22121.3 dBTP; caption sync verified within 0.1 s; music bed (Artlist, licensed) enters before the Zoom shot.",
+  "qc": "Transcript verified word-for-word against the script; one mispronounced word (“faculty”) removed with a jump-cut + punch-in, sentence stays grammatical (“She's at Longevity Life Academy”). Loudness −14 LUFS / peak −1.3 dBTP; caption sync verified within 0.1 s; music bed (Artlist, licensed) enters before the Zoom shot.",
   "transcript": "People born the same year can be 33 years apart in biological age. 954 38 year old New Zealanders were tested to measure how old their bodies actually were. The youngest in the room was 28. The oldest, 61. Same birth year, 33 years apart. That gap is why I'm going to the longevity master class of the year on October 27th. Everyone is talking about longevity right now and almost nobody can prove it. Julie Gibson Clark can. In 2023, she was the second slowest aging person on earth, ahead of Bryan Johnson and his $2 million a year. She spends about $100 a month. Her body ages six and a half years every decade. Single mom with a full time job. She's at Longevity Life Academy and she's teaching her exact protocol live on Zoom for one hour. VIP stays for a private Q&A about your own goals. $49. I'm in."
  },
  {
   "slug": "ad2-woman42",
   "file": "lla-julie-ugc-02-woman42.mp4",
-  "title": "Ad 2 \u00b7 Woman, 42",
-  "desc": "Living-room selfie take, green sweater. Same hook and structure: 33-years-apart stat \u2192 Longevity Masterclass of the Year \u2192 who Julie is \u2192 live on Zoom \u2192 $49. Bold word-timed captions, PR pop-up, Zoom power shot, offer closer.",
+  "title": "Ad 2 · Woman, 42",
+  "desc": "Living-room selfie take, green sweater. Same hook and structure: 33-years-apart stat → Longevity Masterclass of the Year → who Julie is → live on Zoom → $49. Bold word-timed captions, PR pop-up, Zoom power shot, offer closer.",
   "duration": "60.9",
-  "source": "Seedance 2.5 \u00b7 720p (0\u201330 s) + 480p extension (30\u201360 s), upscaled to 1080p",
+  "source": "Seedance 2.5 · 720p (0–30 s) + 480p extension (30–60 s), upscaled to 1080p",
   "size": "33.6 MB",
-  "qc": "Transcript verified word-for-word against the script; identity, room and voice consistent across the 30 s seam (frame-tile check). Loudness \u221214 LUFS / peak \u22121.3 dBTP; caption sync verified within 0.1 s; music bed (Artlist, licensed) enters before the Zoom shot.",
+  "qc": "Transcript verified word-for-word against the script; identity, room and voice consistent across the 30 s seam (frame-tile check). Loudness −14 LUFS / peak −1.3 dBTP; caption sync verified within 0.1 s; music bed (Artlist, licensed) enters before the Zoom shot.",
   "transcript": "People born the same year can be 33 years apart in biological age. 954 38 year old New Zealanders were tested to measure how old their bodies actually were. The youngest in the room was 28. The oldest, 61. Same birth year, 33 years apart. That gap is why I'm going to the longevity master class of the year on October 27th. Everyone is talking about longevity right now and almost nobody can prove it. Julie Gibson Clark can. In 2023, she was the second slowest aging person on earth ahead of Bryan Johnson and his $2 million a year. She spends about $100 a month. Her body ages six and a half years every decade. Single mom with a full time job. She's one of the founding teachers at Longevity Life Academy, and she's teaching her exact protocol live on Zoom for one hour. VIP stays for a private Q&A about your own goals. $49. I'm in."
+ },
+ {
+  "slug": "film-full-masterclass-edit",
+  "file": "lla-julie-film-full-1080p-masterclass-edit.mp4",
+  "title": "Full Film · Julie Hero Film — Masterclass Edit (16:9, 2:19)",
+  "kind": "Not a UGC ad · full-length hero film · landscape 16:9",
+  "aspect": "16:9",
+  "format": "1920×1080</b> 16:9",
+  "desc": "The full 2:19 Julie hero film from the .dev site, re-cut for the live masterclass. Only the four offer cards (1:29 / 1:53 / 1:57 / 2:01) were changed from Blueprint to masterclass copy in the same fonts and motion: “Longevity Masterclass of the Year · Claim your seat.”, “Sixty Minutes Live with Julie Gibson Clark”, “Her protocol. Her numbers. Live on Zoom.”, “60 MINUTES LIVE · Two dates · From $49.” New 4 s Zoom scene (Julie hosting 50 people, Artlist Seedance 2.5) at 1:49.7. Spoken “across six pillars and 18 live sessions” removed. Everything else is the original film, untouched.",
+  "duration": "139.0",
+  "source": "Original hero film (julie-film-v20260927, 1080p) + Artlist Seedance 2.5 Zoom scene · H.264 CRF 14",
+  "size": "91 MB",
+  "qc": "Full-file check: all 3,651 untouched frames identical to the source within encoding noise; frame-to-frame motion smooth on all four cards; Zoom scene frame-blended (no judder); old card text at background level on every frame; audio identical outside 1:29–1:33, music bed continuous through the removed line. Known: the Artlist clip has a ~0.5 s light burst over Julie at ~1:52.7 (in the source generation).",
+  "transcript": "Cards (on screen): 1:29 Longevity Masterclass of the Year / Claim your seat. · 1:53 FOUNDING FACULTY — Sixty Minutes Live with Julie Gibson Clark — How aging is measured, the three levers of her protocol, and her full day turned into habits that stick. · 1:57 Her protocol. Her numbers. / Live on Zoom. · 2:01 60 · MINUTES LIVE / Two dates. / From $49. · 2:15 ENROLL NOW (unchanged). Voice-over: original film narration with the Blueprint line “across six pillars and 18 live sessions” removed."
  }
 ]

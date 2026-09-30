@@ -45,7 +45,9 @@ h1 span{color:var(--blue)}
 .kv{display:grid;grid-template-columns:140px 1fr;gap:8px 14px;font-size:14px;margin:18px 0 22px}
 .kv div:nth-child(odd){color:var(--mut)}
 .script{white-space:pre-wrap;font-size:14px;line-height:1.6;color:#dfe7ff;background:rgba(0,0,0,.25);padding:16px;border-radius:14px;border:1px solid rgba(255,255,255,.08)}
-@media (max-width:760px){.player{grid-template-columns:1fr}.phone{max-width:420px;margin:0 auto}}
+.card.wide{grid-column:1/-1}.card.wide .thumb{aspect-ratio:16/9}.kind{display:inline-block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--gold);border:1px solid rgba(255,214,102,.45);border-radius:999px;padding:4px 10px;margin:0 0 10px}
+.player.wide{grid-template-columns:1fr}.phone.wide{aspect-ratio:16/9;border-radius:18px;border-width:4px}
+@media (max-width:760px){.player{grid-template-columns:1fr}.phone{max-width:420px;margin:0 auto}.phone.wide{max-width:none}}
 """
 
 def page_head(title):
@@ -58,11 +60,14 @@ def header():
 def index():
     cards = []
     for a in ADS:
-        cards.append(f"""<div class="card"><a class="thumb" href="{a['slug']}.html" aria-label="Open {a['title']}">
+        wide = a.get('aspect') == '16:9'
+        fmt = a.get('format', '1080×1920</b> 9:16')
+        kind = f"<span class=\"kind\">{a['kind']}</span>" if a.get('kind') else ""
+        cards.append(f"""<div class="card{' wide' if wide else ''}"><a class="thumb" href="{a['slug']}.html" aria-label="Open {a['title']}">
 <img src="posters/{a['slug']}.jpg" alt="{a['title']} poster"><span class="play"><i></i></span></a>
-<div class="body"><h3>{a['title']}</h3><p>{a['desc']}</p>
+<div class="body">{kind}<h3>{a['title']}</h3><p>{a['desc']}</p>
 <div class="row"><a class="btn p" href="{a['slug']}.html">Play with sound</a><a class="btn s" href="videos/{a['file']}" download>Download MP4</a></div>
-<div class="meta"><span><b>{a['duration']}</b> s</span><span><b>1080×1920</b> 9:16</span><span>source <b>{a['source']}</b></span><span><b>{a['size']}</b></span></div></div></div>""")
+<div class="meta"><span><b>{a['duration']}</b> s</span><span><b>{fmt}</b></span><span>source <b>{a['source']}</b></span><span><b>{a['size']}</b></span></div></div></div>""")
     body = f"""{header()}
 <h1>Longevity Masterclass of the Year<br><span>Julie Gibson Clark · UGC ad set</span></h1>
 <p class="sub">Three 9:16 talking-head ads, one script, one hook. Film opener, PR pop-up cut-in, Zoom power shot, offer closer with live-page dates and prices. Each page autoplays with sound and has a direct MP4 download for Meta upload.</p>
@@ -72,12 +77,15 @@ def index():
     open(f"{ROOT}/index.html", "w").write(page_head("Julie Masterclass UGC Ads · LLA") + body)
 
 def single(a):
+    wide = a.get('aspect') == '16:9'
+    fmt = a.get('format', '1080×1920</b> 9:16').replace('</b>', '')
+    kind = f"<span class=\"kind\">{a['kind']}</span>" if a.get('kind') else ""
     body = f"""{header()}
-<div class="player">
-<div class="phone"><video id="v" src="videos/{a['file']}" poster="posters/{a['slug']}.jpg" autoplay playsinline controls preload="auto"></video>
+<div class="player{' wide' if wide else ''}">
+<div class="phone{' wide' if wide else ''}"><video id="v" src="videos/{a['file']}" poster="posters/{a['slug']}.jpg" autoplay playsinline controls preload="auto"></video>
 <button class="unmute" id="um">Tap for sound</button></div>
-<div class="side"><h2>{a['title']}</h2><p>{a['desc']}</p>
-<div class="kv"><div>Length</div><div>{a['duration']} s</div><div>Format</div><div>1080×1920 · 9:16 · MP4 H.264 · 30 fps</div><div>Audio</div><div>AAC 48 kHz stereo, speech + film stings</div><div>Source render</div><div>{a['source']}</div><div>File size</div><div>{a['size']}</div><div>QC</div><div>{a['qc']}</div></div>
+<div class="side">{kind}<h2>{a['title']}</h2><p>{a['desc']}</p>
+<div class="kv"><div>Length</div><div>{a['duration']} s</div><div>Format</div><div>{fmt} · MP4 H.264 · 30 fps</div><div>Audio</div><div>AAC 48 kHz stereo, speech + film stings</div><div>Source render</div><div>{a['source']}</div><div>File size</div><div>{a['size']}</div><div>QC</div><div>{a['qc']}</div></div>
 <div class="row"><a class="btn p" href="videos/{a['file']}" download>Download MP4</a><a class="btn s" href="index.html">All ads</a></div>
 <h3 style="margin:28px 0 8px">Spoken script (verified transcript)</h3><div class="script">{a['transcript']}</div></div></div>
 <script>
