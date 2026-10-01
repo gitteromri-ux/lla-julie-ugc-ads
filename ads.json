@@ -24,15 +24,15 @@
  {
   "slug": "film-full-masterclass-edit",
   "file": "lla-julie-film-full-1080p-masterclass-edit.mp4",
-  "title": "Full Film · Julie Hero Film — Masterclass Edit (16:9, 2:19)",
+  "title": "Full Film · Julie Hero Film — Masterclass Edit v5 (16:9, 2:17)",
   "kind": "Not a UGC ad · full-length hero film · landscape 16:9",
   "aspect": "16:9",
   "format": "1920×1080</b> 16:9",
-  "desc": "The full 2:19 Julie hero film from the .dev site, re-cut for the live masterclass. Only the four offer cards (1:29 / 1:53 / 1:57 / 2:01) were changed from Blueprint to masterclass copy in the same fonts and motion: “Longevity Masterclass of the Year · Claim your seat.”, “Sixty Minutes Live with Julie Gibson Clark”, “Her protocol. Her numbers. Live on Zoom.”, “60 MINUTES LIVE · Two dates · From $49.” New 4 s Zoom scene (Julie hosting 50 people, Artlist Seedance 2.5) at 1:49.7. Spoken “across six pillars and 18 live sessions” removed. Everything else is the original film, untouched.",
-  "duration": "139.0",
-  "source": "Original hero film (julie-film-v20260927, 1080p) + Artlist Seedance 2.5 Zoom scene · H.264 CRF 14",
-  "size": "91 MB",
-  "qc": "Full-file check: all 3,651 untouched frames identical to the source within encoding noise; frame-to-frame motion smooth on all four cards; Zoom scene frame-blended (no judder); old card text at background level on every frame; audio identical outside 1:29–1:33, music bed continuous through the removed line. Known: the Artlist clip has a ~0.5 s light burst over Julie at ~1:52.7 (in the source generation).",
+  "desc": "The full Julie hero film, masterclass edit v5 (two audit rounds applied). Offer cards at 1:29 / 1:53 / 1:57 / 2:01 rewritten for the live masterclass in the same fonts and motion. Press cards carry the real headlines, outlets and dates from the site’s press section verbatim (Fortune, Business Insider, The Sun, Daily Mail, AS, Yahoo Finance); the AI phone/search montage at 1:41–1:45 is replaced by a designed search sequence (real query, real results); Julie-only faculty card “Sixty Minutes Live with Julie Gibson Clark”; offer panel with both dates (Tuesday, October 27 · 7 PM ET / Saturday, November 14 · 1 PM ET) and prices (from $49 · VIP $79); end card with dates, URL and the Trustpilot rating labelled as eTeacher Group’s; phone labels and axis relabelled (tracked); “4 systems / 6 things” framing → “$2M a year / 3 things”; LLA-branded Zoom class; kinetic captions recoloured; toothbrush B-roll replaced by the AUTOMATIC card; dissolves on the harsh cuts; 2.4 s dead air trimmed. Not a UGC ad. 12 captioned cutdowns (75 / 60 / 45 s in 16:9, 9:16, 1:1, 4:5, −14 LUFS) are on the v5 page: https://gitteromri-ux.github.io/lla-masterclass-assets/julie-film-v4/",
+  "duration": "136.6",
+  "source": "Original hero film (julie-film-v20260927, 1080p) + Artlist Seedance 2.5 Zoom scene + v5 fixes · H.264 CRF 14",
+  "size": "83 MB",
+  "qc": "Full-file check of this v5 file against v3: 2,786 frames outside the edit windows identical within encoding noise (max mean abs diff 1.3/255); frozen frames only on the film’s own static cards; audio identical outside the 0:44–0:45 line removal and the trimmed outro. Open items stated on the v5 page: light streak in the generated Zoom push-in, repeated logo tiles in that clip, blink on the first punch-in, 6 px phone clock.",
   "transcript": "Cards (on screen): 1:29 Longevity Masterclass of the Year / Claim your seat. · 1:53 FOUNDING FACULTY — Sixty Minutes Live with Julie Gibson Clark — How aging is measured, the three levers of her protocol, and her full day turned into habits that stick. · 1:57 Her protocol. Her numbers. / Live on Zoom. · 2:01 60 · MINUTES LIVE / Two dates. / From $49. · 2:15 ENROLL NOW (unchanged). Voice-over: original film narration with the Blueprint line “across six pillars and 18 live sessions” removed."
  }
 ]
