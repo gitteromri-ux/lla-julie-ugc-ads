@@ -48,13 +48,13 @@ def wide1(f,H=1170,S=34):
     L=cv2.resize(r[:,:S],(S+p,1080),interpolation=cv2.INTER_LINEAR); Rr=cv2.resize(r[:,W_-S:],(S+q,1080),interpolation=cv2.INTER_LINEAR)
     return np.ascontiguousarray(np.hstack([L,r[:,S:W_-S],Rr]))
 
-H={'h2':dict(a0=0.0,caps=[(0.0,1.10,"Eight weeks",{0,1}),(1.10,2.14,"of lifestyle change",set()),(2.14,2.90,"made people's",set()),(2.90,3.62,"DNA test",{0}),(3.62,5.54,"3 years younger.",{0,1,2}),(5.54,6.68,"Food, sleep,",set()),(6.68,9.0,"exercise and stress.",{2})],
+H={'h2':dict(a0=0.20,na=192,caps=[(0.0,1.10,"Eight weeks",{0,1}),(1.10,2.14,"of lifestyle change",set()),(2.14,2.90,"made people's",set()),(2.90,3.62,"DNA test",{0}),(3.62,5.54,"3 years younger.",{0,1,2}),(5.54,6.68,"Food, sleep,",set()),(6.68,9.0,"exercise and stress.",{2})],
           card=('3 years younger.','In eight weeks.','Clinical trial, men 50 to 72. Aging, 2021.')),
-   'h3':dict(a0=10.30,caps=[(10.64,11.46,"Five habits",{0,1}),(11.46,12.20,"at age 50",{2}),(12.20,12.84,"add up to",set()),(12.84,13.54,"14 years",{0,1}),(13.54,14.88,"to your life.",set()),(14.88,15.38,"Harvard tracked",{0}),(15.38,16.94,"123,000 people",{0}),(16.94,19.30,"for over 30 years.",{2,3})],
+   'h3':dict(a0=10.55,na=190,caps=[(10.64,11.46,"Five habits",{0,1}),(11.46,12.20,"at age 50",{2}),(12.20,12.84,"add up to",set()),(12.84,13.54,"14 years",{0,1}),(13.54,14.88,"to your life.",set()),(14.88,15.38,"Harvard tracked",{0}),(15.38,16.94,"123,000 people",{0}),(16.94,19.30,"for over 30 years.",{2,3})],
           card=('Up to 14 years.','Five habits. From age 50.','Harvard: 123,000 people, over 30 years.')),
-   'h4':dict(a0=20.00,caps=[(20.28,21.04,"Not moving",{1}),(21.04,21.58,"your body",set()),(21.58,22.26,"is deadlier",{1}),(22.26,23.52,"than smoking.",set()),(23.52,24.24,"In a study of",set()),(24.24,26.18,"122,000 patients,",{0}),(26.18,27.24,"the least fit had",{2}),(27.24,27.98,"5 times",{0,1}),(27.98,29.0,"the risk of death.",set())],
+   'h4':dict(a0=20.20,na=210,caps=[(20.28,21.04,"Not moving",{1}),(21.04,21.58,"your body",set()),(21.58,22.26,"is deadlier",{1}),(22.26,23.52,"than smoking.",set()),(23.52,24.24,"In a study of",set()),(24.24,26.18,"122,000 patients,",{0}),(26.18,27.24,"the least fit had",{2}),(27.24,27.98,"5 times",{0,1}),(27.98,29.0,"the risk of death.",set())],
           card=('5.04 vs 1.41.','Risk of death: low fitness vs. smoking.','Cleveland Clinic, 122,007 patients. JAMA, 2018.'))}[HOOK]
-NA,NB,C1,D0=216,72,115,426
+NA,NB,C1,D0=H['na'],60,115,517
 def card_layer(fmt):
     off=0 if fmt=='9x16' else 409; big,sub,small=H['card']
     return mk(fmt,[(big,min(177,size_for(big,940)),False,WHITE,790-off),(sub,min(SUB,size_for(sub,940,True)),True,BLUE,1040-off),(small,min(56,size_for(small,900,True)),True,BLUE,1140-off)],1262-off)
@@ -113,12 +113,11 @@ voice=np.vstack([hook,np.zeros((fr(NB),2),np.float32),fade(v24[:fr(C1)].copy()),
 T=75.0; N=int(T*SR); voice=np.vstack([voice,np.zeros((N-len(voice),2),np.float32)])[:N]
 g24=np.load(HB+'g24.npy'); g24=np.repeat(g24,480)[:N]
 gA=np.full(fr(NA),0.0665,np.float32); gA[:int(0.12*SR)]*=np.linspace(0,1,int(0.12*SR))
-gB=np.full(fr(NB),0.24,np.float32); r=int(0.25*SR); gB[:r]=np.linspace(0.0665,0.24,r); gB[-r:]=np.linspace(0.24,0.0665,r)
+gB=np.full(fr(NB),0.13,np.float32); r=int(0.2*SR); gB[:r]=np.linspace(0.0665,0.13,r); gB[-r:]=np.linspace(0.13,0.0665,r)
 gD=g24[fr(D0):]
 gg=np.concatenate([gA,gB,g24[:fr(C1)],gD]); gg=np.concatenate([gg,np.full(max(0,N-len(gg)),gD[-int(0.5*SR)],np.float32)])[:N]
 gg=np.convolve(gg,np.ones(4800)/4800,mode='same').astype(np.float32); gg[-int(0.3*SR):]*=np.linspace(1,0,int(0.3*SR))
-music=rd(HB+'Exhilarate.mp3',66.0,T)
+ex=rd(HB+'Exhilarate.mp3',66.0,T); music=rd(HB+'sonilo.m4a',18.0,T); music*=np.sqrt((ex**2).mean())/np.sqrt((music**2).mean()+1e-9)
 mix=voice+music*gg[:,None]
 with wave.open(OUTD+f'/{HOOK}.wav','wb') as w:
-    w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(mix,-1,1)*32767).astype(np.int16).tobytes())
-print('done',HOOK,n)
+    w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(mix,-1,1)*32767).astype(np.int16).tobytes()
