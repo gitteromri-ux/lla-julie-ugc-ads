@@ -35,8 +35,8 @@ def punch(img,s,cy=760):
     if s==1.0: return img
     H,W=img.shape[:2]; M=np.float32([[s,0,(1-s)*540],[0,s,(1-s)*cy]]); return cv2.warpAffine(img,M,(W,H),flags=cv2.INTER_CUBIC,borderMode=cv2.BORDER_REPLICATE)
 # ---------- cards ----------
-BG={'9x16':cv2.imread('/tmp/claude-0/a/r14/cardbg9.png'),'1x1':cv2.imread('/tmp/claude-0/a/r14/cardbg1b.png')}
-BGN={'9x16':cv2.imread('/tmp/claude-0/a/r13/bg9.png'),'1x1':cv2.imread('/tmp/claude-0/a/r13/bg1.png')}
+BG={'9x16':cv2.imread(HB+'cardbg9.png'),'1x1':cv2.imread(HB+'cardbg1b.png')}
+BGN={}
 SUB=80
 def mk(fmt,ls,ry):
     H=1920 if fmt=='9x16' else 1080
@@ -120,4 +120,5 @@ gg=np.convolve(gg,np.ones(4800)/4800,mode='same').astype(np.float32); gg[-int(0.
 ex=rd(HB+'Exhilarate.mp3',66.0,T); music=rd(HB+'sonilo.m4a',18.0,T); music*=np.sqrt((ex**2).mean())/np.sqrt((music**2).mean()+1e-9)
 mix=voice+music*gg[:,None]
 with wave.open(OUTD+f'/{HOOK}.wav','wb') as w:
-    w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(mix,-1,1)*32767).astype(np.int16).tobytes()
+    w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes((np.clip(mix,-1,1)*32767).astype(np.int16).tobytes())
+print('done',HOOK,n)
