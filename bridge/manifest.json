@@ -1,16 +1,36 @@
 {
  "downloads": [
   {
-   "url": "https://cms-artifacts.artlist.io/content/artlist/song-mp3/da09eaef-da7a-4346-9b3e-dd93c876bce8_mp3_0e8738f7-7ed4-4ab1-b020-b4b17b981a36_1780477185154.mp3?d=true&filename=Florian%20Seraul%20-%20Patterns%20of%20Hope.mp3&Expires=1792400169&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=GiUvCxDl9FpTrfUJ4A4tbLNafr1ccayDuUVo58TKI-HDV~eiIml8~FBHYcavP2EWoSIBOIjdJaSRvkzjU58QFuFpywa0YLAHT3AxjgQOffrQ0sYbCRzS98ArL8ydStyayOQAjIo52iUQ0ffnfjJjlwbTLF-RhTp471-I6WSrnuZAUu7hCT~SGMWM3CC6fXm8Kcxjm4trT1dc1KIjbp2jwvdgbPigBmyXHONzKfHj1gO~DoG6V-N~yW9J9vHK6vma1jmffyBFjNrhuVfUEobG80A-eGlhbjjFzLWwT0DN30xwoCgrD3t9HrCC-aOfzAUhXon3DJT27dkdPB-fpykm8A__",
-   "out": "music/patterns_of_hope.mp3"
+   "url": "https://cms-artifacts.artlist.io/content/artlist/song-core/da09eaef-da7a-4346-9b3e-dd93c876bce8_wav_bdd2b80c-814e-445f-a788-53bc827e796e_1780477401823.wav?d=true&filename=Florian%20Seraul%20-%20Patterns%20of%20Hope.wav&Expires=1792399375&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=OZtY1pOKTMUjC5KLaC4AZWDgutyRhdWVZjrMqar~PwvyMWor1Nw137Q7c2i7jJoxEHgo7IZn6fGHo0EqhxH8rGLKgAp0Hw0kLmcayAmm9eUbFFwZHpS7Zp521ALYGngC7oq1J93mPRWeSObSKRNDKrZzntYseWeisp9vVhVOyzrTXmEHdfZhyaXuq7tpDgjCscxPxsHrEFMaaw9PJGtNUHl9gJYaHNzbB4OkAxUi7z6uyuE7hCLmvToqqJmbHw6N2U5WBuSTGgEMPk2dxUihuwuIjASlyLVsdqJ2GpFkB06V6fuUedMNtDuQu4QV8hKQb0i7ncrtdLF7g2jowpM1pg__",
+   "out": "music/patterns_of_hope.wav"
   },
   {
-   "url": "https://cms-public-artifacts.artlist.io/content/artlist/song-aac/da09eaef-da7a-4346-9b3e-dd93c876bce8_aac_3a0d1095-fed6-490b-9a4d-fa62970fecf3_1780476984737.aac",
-   "out": "music/patterns_of_hope_preview.aac"
+   "url": "https://cms-artifacts.artlist.io/content/artlist/song-core/2dbccc92-8301-45c8-9aaf-5b30a3fe9ee9_wav_52a705a4-06a9-4857-9490-6a885f3a0137_1780918512301.wav?d=true&filename=Xavi%20Morat%C3%B3%20-%20Pure%20Prestige.wav&Expires=1792399400&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=hEtPi8539fa1z06NWr3koLLAbBIZWICBV8syuR5h~o2l5GbYzGRoveB3K3R53XoTU2GO0Dxc08qrdkGkNmVmZtQEFhKXcNhwm7cBMuo1jPrDLoZRXUQ2WRleIQf8kDamu1fAovTR0lOwGC5kFMq7UsdDHlLhizLbTiRi5bzxSQPLe7rZXXA15xjZp-2ihz14xos4lhhPIc2eNlNtmeLKFJXQZAuJch28FzZN5v-laTYXiHY18xhQiYoylIfm2lefxa6LKW7snlT3vm2gtVpMHjUt0p6A6TdadVLaZFaglFvH6GVbGbJTk5Cj3o8SKz8EhmJc7jbr6wMuUKCzwoZRng__",
+   "out": "music/pure_prestige.wav"
   },
   {
-   "url": "https://cms-public-artifacts.artlist.io/content/artlist/song-aac/2dbccc92-8301-45c8-9aaf-5b30a3fe9ee9_aac_0b7edae9-4bad-4eae-8b23-43c42dd0cde7_1780918096326.aac",
-   "out": "music/pure_prestige_preview.aac"
+   "url": "https://cms-toolkit-artifacts.artlist.io/content/-m-u-l-t-i_-t-o_-v-i-d-e-o-v1/media__10/-m-u-l-t-i_-t-o_-v-i-d-e-o-90d9eed2-3dec-47f0-9723-1f3216f875ca.mp4?Expires=2107760073&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=0i0Nfpjod5Rt6Ot4bQQ4CtZVe3MsjojBGHe44zkRetP41vQX2V~Wzh5RGaNVVTunylyBKx~6OGmDMqV8uzByaPQCPvnrrGJXT28YeU7cH7aVRjxz2UWkKlHXwY4yqC4cgDQMmDiP94X0QtsI7cJoYFdki6LXE9QRazueRCSTqo6I6XAMA5K92mXU7jJpTB8gVpUWocJKzaYhdKg~3kpoM~7pBEv35gfPscIjShrr6-27RiOL268O~Pk2YCH~wX9Cb7s96kzhIGCdR4muwXb7GgruWk0G9fHFl74Vk9mwxAAOjiw7YilxwrCqIuLoR5OFlO530DGgds106roNs3jJaA__",
+   "out": "gen/man_p1.mp4"
+  },
+  {
+   "url": "https://cms-toolkit-artifacts.artlist.io/content/-m-u-l-t-i_-t-o_-v-i-d-e-o-v1/media__7/-m-u-l-t-i_-t-o_-v-i-d-e-o-38cf71a6-61a3-401e-bbc5-e2621d56b6b8.mp4?Expires=2107760073&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=bwlVSbopovQ1JcAvZWkGXUnuuaLHiYaRRTVkWD-KKomYSZIwp9BU9b4GBb48hDhliZfV-Qumi-Q3GTtYIpjSdD29xThm3roUdgtkDvSkKeAXImv6-o5Jn0wZnabZGxzQcoFEh912eMgD7kYScrfWEJBT7pKQiGOMFBElCmA6AxZGHnMKi3ZpVNY-tcRqhij1fUOt13PP0tEYZpeFdZ8x3AdOy1Zgy3kwDNoIycYQF4Frh41wzUfV87CcVblg3yaVwypUZCQ5qfIvw8DVyxIUEjYmxYSFDwETFI8ZGX0jRcuzjei47r4IQPcYb~OfgJ5U8QHHp-FbjtcBO0iuooQXsQ__",
+   "out": "gen/man_p2.mp4"
+  },
+  {
+   "url": "https://cms-toolkit-artifacts.artlist.io/content/-m-u-l-t-i_-t-o_-v-i-d-e-o-v1/media__5/-m-u-l-t-i_-t-o_-v-i-d-e-o-40d89008-5a67-42cc-9a86-c8f70dd11117.mp4?Expires=2107760073&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=Gb8eV9685MtK1djktx39lx8Ftrq7idyIcB5SgTxRFYz0WZIVF0Tu2tlcu8kzYo9bGhn5rhYYzcQ-Nfa3Rrbami-qznKYhLzsD9JFciOU8qIQVJa42z7S~J295RqeAxOKq70Ljlfwbe7OB5MDj-COqVqr8z1A46Ds7OAFXgm8UStXxopxlXROS0FEwDVR4dCpIh4nulg4rxFpoeCy1gtWdmmPbnr3oe46xMK8UC-EPOV5BaER9C19EFqpP5XJ9DU00-DlpbsEbQqpNUFwPL3dH7M73z~jKME3wussmnOP9s3c7ri11Juh-Z6YbVlVZLZ~ZP2qbfN~BmBW26AQ9rfR9g__",
+   "out": "gen/man_p3.mp4"
+  },
+  {
+   "url": "https://cms-toolkit-artifacts.artlist.io/content/-m-u-l-t-i_-t-o_-v-i-d-e-o-v1/media__4/-m-u-l-t-i_-t-o_-v-i-d-e-o-722bfc1b-41ac-40de-bdbe-9bf2d604f811.mp4?Expires=2107760073&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=QeGbWAYAPVHTZw5~gjhc9XENVo1aQ4nlpZo3fBykZ44XZHLaIPIIQrwEGoKxfMaBVQU0R2QtnpsPL~N5uYTd3jw9EIBshFco~N4WNYOoXBV9Zmr11Jkpwm78WJxnzSI6LIGxbZrInoIuOZCkjQ3kskCSf2QXNd~NAO2C6Y6x2T~KZgUGxjRkTd8jJIZjiwHdJrQdCNBrKfoi~Z~R0m1G3318tOoRLR8nBhLN6j6J0fiWIsgig1Uey5r1552TuDx5X8ntykokk~HsJScK05V6U-1p3UVy5MwbATL5Ccmq5HTX5oy0C0ICGkFqDQPOn3A7Qjpv0eOvYD4A-qfvt6c-rA__",
+   "out": "gen/w46_p1.mp4"
+  },
+  {
+   "url": "https://cms-toolkit-artifacts.artlist.io/content/-m-u-l-t-i_-t-o_-v-i-d-e-o-v1/media__4/-m-u-l-t-i_-t-o_-v-i-d-e-o-2441f9b6-03d1-4741-a0e3-cd4170dde2c4.mp4?Expires=2107760073&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=Tk8f53SVmFOMONv4JfMGT8Ffu58j1b44~JnJyA9sncxeBMwcSMBiwZyxZ4vLbgWd5MdDpAFBvJZVgOmJgmzR~zo8REzE-~9I9CuYwXUDiyWISsgNTrXOKwwoHPwzU3nuqnVMLXUIEJNRn0DZUJiwtmT-Y~XU1MR4Edj8ii5N5ExD61WnNI8rUSjuBJUQtDUn0fOOov5Rmu7ylW6lA2s2hdgJjELFc6wpZHaLxjWZDSGAwnkDCKgZNZR1iH002VHfRK3kzkA5LHdff~nCUWKj8z09CFUF91RCEValnt~a5YcKJdnYPIr5bEqhWaKg19ylRk9ClqFnd6Uvgp7r3Nvv1g__",
+   "out": "gen/w46_p2.mp4"
+  },
+  {
+   "url": "https://cms-toolkit-artifacts.artlist.io/content/-m-u-l-t-i_-t-o_-v-i-d-e-o-v1/media__6/-m-u-l-t-i_-t-o_-v-i-d-e-o-54f395d9-7d39-454d-bb79-442d87d2265e.mp4?Expires=2107760073&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=bl-GwK74AZAIQQzJdg06n9cRhy0fryNmGJZDvHHJuE7fLRxomeTcLUFUDekd9tfPWdWyyYm4BQ2t68GwNSR1X6ZFMupg~mS~0uLcgRH9dVv1oTpjGdJ-1DhznJtt-pa2VFJ0cTUKeRMfSk5hQ930PrnpNFYehNHNsI6x5DEZEqQFehuxu-7FmQ29MvkXntLTNgX1BjNMBSGtaOKD5WG~GDfmDuRsNBd0vhOA23aCCPxD-7o5K2rphRxQjncnuubgUzypRXfhlL~FklaYY60jjSNooFXWPasHtmkepnJo0Z8AvDQwQdERdiCVHLcXhjK2StUpG~ZAxtauMT9cdaf8gw__",
+   "out": "gen/w46_p3.mp4"
   }
  ]
 }
