@@ -1,14 +1,6 @@
 {
  "downloads": [
   {
-   "url": "https://cms-artifacts.artlist.io/content/artlist/song-core/da09eaef-da7a-4346-9b3e-dd93c876bce8_wav_bdd2b80c-814e-445f-a788-53bc827e796e_1780477401823.wav?d=true&filename=Florian%20Seraul%20-%20Patterns%20of%20Hope.wav&Expires=1792399375&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=OZtY1pOKTMUjC5KLaC4AZWDgutyRhdWVZjrMqar~PwvyMWor1Nw137Q7c2i7jJoxEHgo7IZn6fGHo0EqhxH8rGLKgAp0Hw0kLmcayAmm9eUbFFwZHpS7Zp521ALYGngC7oq1J93mPRWeSObSKRNDKrZzntYseWeisp9vVhVOyzrTXmEHdfZhyaXuq7tpDgjCscxPxsHrEFMaaw9PJGtNUHl9gJYaHNzbB4OkAxUi7z6uyuE7hCLmvToqqJmbHw6N2U5WBuSTGgEMPk2dxUihuwuIjASlyLVsdqJ2GpFkB06V6fuUedMNtDuQu4QV8hKQb0i7ncrtdLF7g2jowpM1pg__",
-   "out": "music/patterns_of_hope.wav"
-  },
-  {
-   "url": "https://cms-artifacts.artlist.io/content/artlist/song-core/2dbccc92-8301-45c8-9aaf-5b30a3fe9ee9_wav_52a705a4-06a9-4857-9490-6a885f3a0137_1780918512301.wav?d=true&filename=Xavi%20Morat%C3%B3%20-%20Pure%20Prestige.wav&Expires=1792399400&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=hEtPi8539fa1z06NWr3koLLAbBIZWICBV8syuR5h~o2l5GbYzGRoveB3K3R53XoTU2GO0Dxc08qrdkGkNmVmZtQEFhKXcNhwm7cBMuo1jPrDLoZRXUQ2WRleIQf8kDamu1fAovTR0lOwGC5kFMq7UsdDHlLhizLbTiRi5bzxSQPLe7rZXXA15xjZp-2ihz14xos4lhhPIc2eNlNtmeLKFJXQZAuJch28FzZN5v-laTYXiHY18xhQiYoylIfm2lefxa6LKW7snlT3vm2gtVpMHjUt0p6A6TdadVLaZFaglFvH6GVbGbJTk5Cj3o8SKz8EhmJc7jbr6wMuUKCzwoZRng__",
-   "out": "music/pure_prestige.wav"
-  },
-  {
    "url": "https://cms-toolkit-artifacts.artlist.io/content/-m-u-l-t-i_-t-o_-v-i-d-e-o-v1/media__10/-m-u-l-t-i_-t-o_-v-i-d-e-o-90d9eed2-3dec-47f0-9723-1f3216f875ca.mp4?Expires=2107760073&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=0i0Nfpjod5Rt6Ot4bQQ4CtZVe3MsjojBGHe44zkRetP41vQX2V~Wzh5RGaNVVTunylyBKx~6OGmDMqV8uzByaPQCPvnrrGJXT28YeU7cH7aVRjxz2UWkKlHXwY4yqC4cgDQMmDiP94X0QtsI7cJoYFdki6LXE9QRazueRCSTqo6I6XAMA5K92mXU7jJpTB8gVpUWocJKzaYhdKg~3kpoM~7pBEv35gfPscIjShrr6-27RiOL268O~Pk2YCH~wX9Cb7s96kzhIGCdR4muwXb7GgruWk0G9fHFl74Vk9mwxAAOjiw7YilxwrCqIuLoR5OFlO530DGgds106roNs3jJaA__",
    "out": "gen/man_p1.mp4"
   },
@@ -31,6 +23,10 @@
   {
    "url": "https://cms-toolkit-artifacts.artlist.io/content/-m-u-l-t-i_-t-o_-v-i-d-e-o-v1/media__6/-m-u-l-t-i_-t-o_-v-i-d-e-o-54f395d9-7d39-454d-bb79-442d87d2265e.mp4?Expires=2107760073&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=bl-GwK74AZAIQQzJdg06n9cRhy0fryNmGJZDvHHJuE7fLRxomeTcLUFUDekd9tfPWdWyyYm4BQ2t68GwNSR1X6ZFMupg~mS~0uLcgRH9dVv1oTpjGdJ-1DhznJtt-pa2VFJ0cTUKeRMfSk5hQ930PrnpNFYehNHNsI6x5DEZEqQFehuxu-7FmQ29MvkXntLTNgX1BjNMBSGtaOKD5WG~GDfmDuRsNBd0vhOA23aCCPxD-7o5K2rphRxQjncnuubgUzypRXfhlL~FklaYY60jjSNooFXWPasHtmkepnJo0Z8AvDQwQdERdiCVHLcXhjK2StUpG~ZAxtauMT9cdaf8gw__",
    "out": "gen/w46_p3.mp4"
+  },
+  {
+   "url": "https://cms-toolkit-artifacts.artlist.io/content/-t-e-x-t_-t-o_-m-u-s-i-c-v1/media__1/music-3fc46673-0a46-4f6a-ba70-d6f06ea70369.wav?Expires=2107760515&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=Vm044WH7JijCFOw4JPsEENuwosltxieerAcmj~WfNDcoR3kRqFLluTiPg8~sjqs~MZMpKUnnQ1OY5bV7JjUkxe~SrOfVrkN1aFQPp3rohrZE8xpKDTh78xZATiHRG2liq4Y75jPVRB2RqqcA6qr6SCvHUE7K0FG~tEBz~riRSacXdQl1J0BmIpeHk~yIAgnn-VDHcvCiknsIa2UZ7FainN61sha6HRU1Y6Nf19N4ra-KpFXXG1Fxl00yH75ppbIwmd6JvwE4msrCrBgbf6udvRd~F8-w-wl5X426h2Euqywufimw9VoBUtAhEb5dFwbphZP6q1z-BWvr2FhYvsKQkw__",
+   "out": "music/bed.wav"
   }
  ]
 }
