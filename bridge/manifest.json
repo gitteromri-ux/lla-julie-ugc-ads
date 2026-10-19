@@ -1,1 +1,12 @@
-{"downloads":[]}
+{
+ "downloads": [
+  {
+   "url": "https://cms-artifacts.artlist.io/content/artlist/song-core/da09eaef-da7a-4346-9b3e-dd93c876bce8_wav_bdd2b80c-814e-445f-a788-53bc827e796e_1780477401823.wav?d=true&filename=Florian%20Seraul%20-%20Patterns%20of%20Hope.wav&Expires=1792399375&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=OZtY1pOKTMUjC5KLaC4AZWDgutyRhdWVZjrMqar~PwvyMWor1Nw137Q7c2i7jJoxEHgo7IZn6fGHo0EqhxH8rGLKgAp0Hw0kLmcayAmm9eUbFFwZHpS7Zp521ALYGngC7oq1J93mPRWeSObSKRNDKrZzntYseWeisp9vVhVOyzrTXmEHdfZhyaXuq7tpDgjCscxPxsHrEFMaaw9PJGtNUHl9gJYaHNzbB4OkAxUi7z6uyuE7hCLmvToqqJmbHw6N2U5WBuSTGgEMPk2dxUihuwuIjASlyLVsdqJ2GpFkB06V6fuUedMNtDuQu4QV8hKQb0i7ncrtdLF7g2jowpM1pg__",
+   "out": "music/patterns_of_hope.wav"
+  },
+  {
+   "url": "https://cms-artifacts.artlist.io/content/artlist/song-core/2dbccc92-8301-45c8-9aaf-5b30a3fe9ee9_wav_52a705a4-06a9-4857-9490-6a885f3a0137_1780918512301.wav?d=true&filename=Xavi%20Morat%C3%B3%20-%20Pure%20Prestige.wav&Expires=1792399400&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=hEtPi8539fa1z06NWr3koLLAbBIZWICBV8syuR5h~o2l5GbYzGRoveB3K3R53XoTU2GO0Dxc08qrdkGkNmVmZtQEFhKXcNhwm7cBMuo1jPrDLoZRXUQ2WRleIQf8kDamu1fAovTR0lOwGC5kFMq7UsdDHlLhizLbTiRi5bzxSQPLe7rZXXA15xjZp-2ihz14xos4lhhPIc2eNlNtmeLKFJXQZAuJch28FzZN5v-laTYXiHY18xhQiYoylIfm2lefxa6LKW7snlT3vm2gtVpMHjUt0p6A6TdadVLaZFaglFvH6GVbGbJTk5Cj3o8SKz8EhmJc7jbr6wMuUKCzwoZRng__",
+   "out": "music/pure_prestige.wav"
+  }
+ ]
+}
