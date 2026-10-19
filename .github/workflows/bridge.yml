@@ -1,0 +1,38 @@
+name: bridge
+on:
+  push:
+    branches: [bridge]
+    paths: ['bridge/manifest.json']
+permissions:
+  contents: write
+concurrency:
+  group: bridge
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: bridge
+      - name: download
+        run: |
+          set -e
+          mkdir -p bridge/out
+          python3 - <<'PY'
+          import json, subprocess, os
+          m=json.load(open('bridge/manifest.json'))
+          for d in m.get('downloads',[]):
+              out=os.path.join('bridge/out',d['out']); os.makedirs(os.path.dirname(out),exist_ok=True)
+              if os.path.exists(out) and os.path.getsize(out)>0: continue
+              r=subprocess.run(['curl','-sSL','--retry','3','-o',out,d['url']])
+              print(d['out'], 'ok' if r.returncode==0 else 'FAIL', os.path.getsize(out) if os.path.exists(out) else 0)
+          PY
+          ls -la bridge/out
+      - name: commit
+        run: |
+          git config user.name bridge-bot
+          git config user.email bridge-bot@users.noreply.github.com
+          git add -f bridge/out
+          git commit -m "bridge: fetched $(date -u +%FT%TZ)" || echo "nothing to commit"
+          git push origin bridge
