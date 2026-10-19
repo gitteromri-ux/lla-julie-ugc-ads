@@ -1,12 +1,16 @@
 {
  "downloads": [
   {
-   "url": "https://cms-artifacts.artlist.io/content/artlist/song-core/da09eaef-da7a-4346-9b3e-dd93c876bce8_wav_bdd2b80c-814e-445f-a788-53bc827e796e_1780477401823.wav?d=true&filename=Florian%20Seraul%20-%20Patterns%20of%20Hope.wav&Expires=1792399375&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=OZtY1pOKTMUjC5KLaC4AZWDgutyRhdWVZjrMqar~PwvyMWor1Nw137Q7c2i7jJoxEHgo7IZn6fGHo0EqhxH8rGLKgAp0Hw0kLmcayAmm9eUbFFwZHpS7Zp521ALYGngC7oq1J93mPRWeSObSKRNDKrZzntYseWeisp9vVhVOyzrTXmEHdfZhyaXuq7tpDgjCscxPxsHrEFMaaw9PJGtNUHl9gJYaHNzbB4OkAxUi7z6uyuE7hCLmvToqqJmbHw6N2U5WBuSTGgEMPk2dxUihuwuIjASlyLVsdqJ2GpFkB06V6fuUedMNtDuQu4QV8hKQb0i7ncrtdLF7g2jowpM1pg__",
-   "out": "music/patterns_of_hope.wav"
+   "url": "https://cms-artifacts.artlist.io/content/artlist/song-mp3/da09eaef-da7a-4346-9b3e-dd93c876bce8_mp3_0e8738f7-7ed4-4ab1-b020-b4b17b981a36_1780477185154.mp3?d=true&filename=Florian%20Seraul%20-%20Patterns%20of%20Hope.mp3&Expires=1792400169&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=GiUvCxDl9FpTrfUJ4A4tbLNafr1ccayDuUVo58TKI-HDV~eiIml8~FBHYcavP2EWoSIBOIjdJaSRvkzjU58QFuFpywa0YLAHT3AxjgQOffrQ0sYbCRzS98ArL8ydStyayOQAjIo52iUQ0ffnfjJjlwbTLF-RhTp471-I6WSrnuZAUu7hCT~SGMWM3CC6fXm8Kcxjm4trT1dc1KIjbp2jwvdgbPigBmyXHONzKfHj1gO~DoG6V-N~yW9J9vHK6vma1jmffyBFjNrhuVfUEobG80A-eGlhbjjFzLWwT0DN30xwoCgrD3t9HrCC-aOfzAUhXon3DJT27dkdPB-fpykm8A__",
+   "out": "music/patterns_of_hope.mp3"
   },
   {
-   "url": "https://cms-artifacts.artlist.io/content/artlist/song-core/2dbccc92-8301-45c8-9aaf-5b30a3fe9ee9_wav_52a705a4-06a9-4857-9490-6a885f3a0137_1780918512301.wav?d=true&filename=Xavi%20Morat%C3%B3%20-%20Pure%20Prestige.wav&Expires=1792399400&Key-Pair-Id=K2ZDLYDZI2R1DF&Signature=hEtPi8539fa1z06NWr3koLLAbBIZWICBV8syuR5h~o2l5GbYzGRoveB3K3R53XoTU2GO0Dxc08qrdkGkNmVmZtQEFhKXcNhwm7cBMuo1jPrDLoZRXUQ2WRleIQf8kDamu1fAovTR0lOwGC5kFMq7UsdDHlLhizLbTiRi5bzxSQPLe7rZXXA15xjZp-2ihz14xos4lhhPIc2eNlNtmeLKFJXQZAuJch28FzZN5v-laTYXiHY18xhQiYoylIfm2lefxa6LKW7snlT3vm2gtVpMHjUt0p6A6TdadVLaZFaglFvH6GVbGbJTk5Cj3o8SKz8EhmJc7jbr6wMuUKCzwoZRng__",
-   "out": "music/pure_prestige.wav"
+   "url": "https://cms-public-artifacts.artlist.io/content/artlist/song-aac/da09eaef-da7a-4346-9b3e-dd93c876bce8_aac_3a0d1095-fed6-490b-9a4d-fa62970fecf3_1780476984737.aac",
+   "out": "music/patterns_of_hope_preview.aac"
+  },
+  {
+   "url": "https://cms-public-artifacts.artlist.io/content/artlist/song-aac/2dbccc92-8301-45c8-9aaf-5b30a3fe9ee9_aac_0b7edae9-4bad-4eae-8b23-43c42dd0cde7_1780918096326.aac",
+   "out": "music/pure_prestige_preview.aac"
   }
  ]
 }
